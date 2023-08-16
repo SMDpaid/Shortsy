@@ -27,7 +27,7 @@ class Var(object):
     FDQN = str(getenv('FDQN', 'https://qtvsofficial.onrender.com'))
 
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('@SMD_Owner'))
+    OWNER_USERNAME = str(getenv('SMD_Owner'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME', 'qtvsofficial'))
@@ -41,5 +41,5 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', "mongodb+srv://hillsking1222:kuraman1@kumaran1.d6ahc05.mongodb.net/?retryWrites=true&w=majority"))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', "@SAM_DUB_LEZHa"))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', "-1001989401038"))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split())) 
