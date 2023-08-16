@@ -1,4 +1,4 @@
-# (c) adarsh-goel
+# (c) SAM_DUB_LEZHa
 import os
 from os import getenv, environ
 from dotenv import load_dotenv
@@ -11,7 +11,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '13415474'))
     API_HASH = str(getenv('API_HASH', '01bb828c0429beeabd6e9e841d026231'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', '6630662815:AAFCbqq9lxLdcqDUEZaLEYlsyVbCs8qe600'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '6434399232:AAFy94DNlPbOjzQlrMEoKcwjeHWRnJGmxFI'))
     SESSION_NAME = str(getenv('SESSION_NAME', 'qtvsofficial'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
